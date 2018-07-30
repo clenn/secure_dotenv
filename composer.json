@@ -17,19 +17,10 @@
             "Psecio\\SecureDotenv\\":"src/"
         }
     },
-    "autoload-dev":{
-        "psr-4":{
-            "Psecio\\SecureDotenv\\":"tests/"
-        }
-    },
     "require":{
-        "php": "^7.1",
         "defuse/php-encryption": "^2.2",
         "enygma/cmd": "^0.4.0",
         "league/climate": "^3.4",
         "m1/env": "2.1.*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "^7.1"
     }
 }
